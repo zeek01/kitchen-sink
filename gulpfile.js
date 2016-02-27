@@ -5,7 +5,7 @@ var notify       = require('gulp-notify');
 var gulpSize     = require('gulp-size');
 var autoprefixer = require('gulp-autoprefixer');
 
-var sassDevPath  = './scss/style.scss';
+var sassDevPath  = './scss/styles.scss';
 var dest_path    = './public/'
 
 gulp.task('scss', function(){
