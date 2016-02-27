@@ -28,5 +28,5 @@ gulp.task('scss', function(){
 
 // Restart the server for changes.
 gulp.task('default', ['scss'], function () {
- nodemon({ script: 'server.js', ext: 'html js' });
+ nodemon({ script: 'server.js', tasks: ['scss'], ext: 'html js scss' });
 });

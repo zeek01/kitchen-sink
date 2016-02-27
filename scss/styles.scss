@@ -1,8 +1,12 @@
 @import 'vendors/normalise';
 /*@import 'vendors/susy';*/
 
-$mytestcolour: #333333;
+$mytestcolour: #666;
 
 body {
+	background-color: $mytestcolour;
+}
+
+header {
 	background-color: $mytestcolour;
 }
