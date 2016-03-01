@@ -1,0 +1,93 @@
+#header {
+	background-color: $mytestcolour;
+	min-height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10000;
+
+  &:hover {
+    .search-bar{
+      color: #ffffff;
+      min-height: 50px;
+      padding: 20px;
+	  	transition: min-height 0.7s ease-in-out,
+							color 0.7s ease-in-out 0.6s,
+							padding 0.7s ease-in-out,
+							background-color 0.7s ease-in-out;
+    }
+  };
+}
+
+.nav-branding {
+	text-align: left;
+	display: inline;
+}
+
+.align-left {
+	float: left;
+}
+
+.align-right {
+	display: inline-block;
+	float: right;
+	text-align: right;
+}
+
+#menu {
+	list-style-type: none;
+  margin: 0;
+  padding: 20px 0 0 0;
+ 	text-transform: uppercase;
+ 	font-family: 'Ubuntu Condensed', sans-serif;
+ 	font-size: 10px;
+ 	letter-spacing: 0.2em;
+
+  a {
+  	padding-left: 20px;
+  	text-decoration: none;
+    color: white;
+  }
+  ul {
+  	margin: 0;
+  	padding: 0 20px;
+  }
+
+  li {
+  	margin-left: 25px;
+  	display: inline;
+  }
+}
+
+.search-bar {
+	box-sizing: border-box;
+	background-color: rgba(255,255,255,0.1);
+	margin-top: 40px;
+	color: rgba(255,255,255,0.0);
+	clear: left;
+	height: 0;
+	padding: 0 20px;
+	overflow: hidden;
+	min-height: 0px;
+	transition: min-height 0.4s ease-in-out 0.2s,
+							color 0.4s ease-in-out,
+							padding 0.4s ease-in-out 0.2s,
+							background-color 0.4s ease-in-out 0.2s;
+}
+
+.search-field{
+	input {
+		background-color: transparent; 
+		border: none; 
+		outline: none;
+		text-transform: uppercase;
+		font-family: 'Ubuntu Condensed', sans-serif;
+		font-size: 10px;
+		letter-spacing: 0.2em;
+	}
+}
+
+.secondary-nav {
+	display: none;
+}

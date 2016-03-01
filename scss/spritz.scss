@@ -1,0 +1,39 @@
+a.spritzer-logo {
+	display: none;
+}
+
+.spritzer-header{
+	display: none;
+}
+
+.spritzer-container {
+	height: inherit;
+	padding: 0;
+	background-color: transparent;
+	border: none;
+	min-height: inherit;
+	box-shadow: none;
+}
+
+.spritzer-container .spritzer-speed{
+	display: none;
+}
+
+.spritzer .spritzer-canvas {
+  font-family: 'Sura', serif;
+}
+
+/*.spritzer-force-font{
+	font-family: 'Sura', serif !important;
+}*/
+
+.spritzer-preload{
+	font-family:'Sura' !important;
+}
+.spritzer-container .spritzer-force-font{
+	font-family:'Sura' !important;
+}
+
+.spritzer-container .spritzer-button-container{
+	display: none;
+}
