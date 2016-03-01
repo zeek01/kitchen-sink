@@ -20,8 +20,6 @@ server.register(require('inert'), (err) => {
         method: 'GET',
         path: '/',
         handler: function (request, reply) {
-					// var md = new MobileDetect(request.headers['user-agent']);
-					// console.log(md.userAgents());
           reply.file('./public/index.html');
         }
     });
